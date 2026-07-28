@@ -28,7 +28,7 @@ USAGE_LOG = HERE / "usage_log.json"
 
 # GitHubの公開rawURLのテンプレート。<owner> は実際のアカウント名に置き換える。
 RAW_URL_TEMPLATE = (
-    "https://raw.githubusercontent.com/<owner>/sterlingaxiom-sns-assets"
+    "https://raw.githubusercontent.com/SterlingAxiom/sterlingaxiom-sns-assets"
     "/main/mascot/approved/{file}"
 )
 
