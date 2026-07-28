@@ -1,0 +1,47 @@
+{
+  "_comment": "Sterling Axiom マスコット事前生成ライブラリ:生成パターン定義。base に共通の外見指定、patterns に個別の表情・ポーズ。framing=bust は下半身を描かせないため『4本足になる』『脚が変な場所から生える』破綻が原理的に起きない。迷ったら bust を選ぶこと。",
+
+  "base": {
+    "positive": "chibi anthropomorphic brown miniature dachshund character, standing upright on two legs like a human, round chubby cute body proportions, big friendly eyes, wearing a navy blue business suit vest, flat vector illustration style, clean simple solid white background, centered composition, no text, no letters, no watermark",
+    "negative": "text, letters, words, watermark, signature, realistic dog, four-legged, quadruped, on all fours, extra limbs, extra arms, extra legs, deformed hands, malformed fingers, distorted face, blurry, cluttered background",
+    "size": { "width": 1024, "height": 1024 }
+  },
+
+  "patterns": [
+    { "id": "explain_point_up",   "label": "右上を指差して解説",     "framing": "bust", "emotion": "自信", "use": ["説明", "成長訴求型", "ランキング型"], "prompt": "smiling confidently, pointing upward to the right with one paw, the other paw at his side, bust-up shot from the waist" },
+    { "id": "explain_clipboard",  "label": "資料を持って説明",       "framing": "bust", "emotion": "真面目", "use": ["説明", "成長訴求型"], "prompt": "holding a clipboard with one paw and gesturing with the other, explaining something seriously, bust-up shot from the waist" },
+    { "id": "explain_pointer",    "label": "指し棒で解説",           "framing": "full", "emotion": "真面目", "use": ["説明", "ランキング型"], "prompt": "holding a thin pointer stick, gesturing to the side as if presenting on a board, full body standing upright on two legs" },
+    { "id": "explain_magnifier",  "label": "虫眼鏡で覗き込む",       "framing": "bust", "emotion": "興味", "use": ["説明", "危機喚起型"], "prompt": "holding a magnifying glass up near his face and peering through it curiously, bust-up shot from the waist" },
+    { "id": "explain_think",      "label": "腕組みで思案",           "framing": "bust", "emotion": "思案", "use": ["説明", "成長訴求型"], "prompt": "arms folded across chest, thoughtful pensive expression, head slightly tilted, bust-up shot from the waist" },
+    { "id": "explain_one_finger", "label": "人差し指を立てて一点強調", "framing": "bust", "emotion": "自信", "use": ["説明", "ハウツー型"], "prompt": "raising one index finger upward as if making a single key point, confident smile, bust-up shot from the waist" },
+
+    { "id": "positive_guts",      "label": "両手ガッツポーズ",       "framing": "bust", "emotion": "喜び", "use": ["成長訴求型"], "prompt": "both paws raised in a triumphant victory pose, big joyful open-mouth smile, eyes closed happily, bust-up shot from the waist" },
+    { "id": "positive_thumbsup",  "label": "親指を立てる",           "framing": "bust", "emotion": "喜び", "use": ["成長訴求型", "ハウツー型"], "prompt": "giving a big thumbs up with one paw, cheerful confident grin, bust-up shot from the waist" },
+    { "id": "positive_welcome",   "label": "両手を広げて歓迎",       "framing": "full", "emotion": "喜び", "use": ["成長訴求型"], "prompt": "both arms spread wide open in a warm welcoming gesture, bright friendly smile, full body standing upright on two legs" },
+    { "id": "positive_clap",      "label": "拍手",                   "framing": "bust", "emotion": "喜び", "use": ["成長訴求型", "ランキング型"], "prompt": "clapping both paws together, delighted impressed expression, bust-up shot from the waist" },
+    { "id": "positive_jump",      "label": "ジャンプして喜ぶ",       "framing": "full", "emotion": "喜び", "use": ["成長訴求型"], "prompt": "jumping in the air with joy, both arms raised, legs bent beneath him, full body, dynamic happy pose" },
+    { "id": "positive_push",      "label": "背中を押すジェスチャー", "framing": "bust", "emotion": "励まし", "use": ["成長訴求型"], "prompt": "extending one open palm forward in an encouraging supportive gesture, warm reassuring smile, bust-up shot from the waist" },
+
+    { "id": "alert_guard",        "label": "警戒して身構える",       "framing": "bust", "emotion": "警戒", "use": ["危機喚起型"], "prompt": "wary alert expression, eyebrows furrowed, body slightly leaning back defensively, both paws raised near chest, bust-up shot from the waist" },
+    { "id": "alert_stop",         "label": "手のひらでストップ",     "framing": "bust", "emotion": "警戒", "use": ["危機喚起型"], "prompt": "holding one open palm forward in a firm stop gesture, serious warning expression, bust-up shot from the waist" },
+    { "id": "alert_sweat",        "label": "汗をかいて焦る",         "framing": "bust", "emotion": "焦り", "use": ["危機喚起型"], "prompt": "anxious worried expression with a sweat drop on his forehead, one paw raised near his cheek, bust-up shot from the waist" },
+    { "id": "alert_shield",       "label": "盾を構えて守る",         "framing": "full", "emotion": "防御", "use": ["危機喚起型"], "prompt": "holding a simple round shield in front of him defensively, determined protective expression, full body standing upright on two legs" },
+    { "id": "alert_concern",      "label": "眉をひそめて懸念",       "framing": "bust", "emotion": "懸念", "use": ["危機喚起型", "説明"], "prompt": "arms folded, brow furrowed with a concerned serious expression, looking directly forward, bust-up shot from the waist" },
+    { "id": "alert_exclaim",      "label": "注意マークを掲げる",     "framing": "bust", "emotion": "警告", "use": ["危機喚起型"], "prompt": "holding up a blank yellow triangular warning sign with one paw, alert cautioning expression, bust-up shot from the waist" },
+
+    { "id": "surprise_wideeyes",  "label": "目を見開いて驚く",       "framing": "bust", "emotion": "驚き", "use": ["ハウツー型", "ランキング型"], "prompt": "eyes wide open in genuine surprise, mouth slightly agape, both paws raised near his face, bust-up shot from the waist" },
+    { "id": "surprise_idea",      "label": "ひらめき",               "framing": "bust", "emotion": "ひらめき", "use": ["ハウツー型"], "prompt": "one index finger raised, looking upward with a bright inspired expression as if struck by an idea, bust-up shot from the waist" },
+    { "id": "surprise_gasp",      "label": "口に手を当てて驚く",     "framing": "bust", "emotion": "驚き", "use": ["ハウツー型", "危機喚起型"], "prompt": "one paw covering his open mouth in astonishment, eyes wide, bust-up shot from the waist" },
+    { "id": "surprise_laptop",    "label": "ノートPCを操作",         "framing": "bust", "emotion": "感心", "use": ["ハウツー型", "説明"], "prompt": "sitting at a desk operating a laptop computer, impressed focused expression looking at the screen, bust-up shot from the waist" },
+    { "id": "surprise_beckon",    "label": "手招きする",             "framing": "bust", "emotion": "誘い", "use": ["ハウツー型"], "prompt": "beckoning with one paw as if inviting the viewer closer, playful conspiratorial smile, bust-up shot from the waist" },
+
+    { "id": "rank_point_left",    "label": "左を指差す(脇役用)",     "framing": "full", "emotion": "自信", "use": ["ランキング型"], "prompt": "small full body figure standing upright on two legs, pointing to the left side with one paw, cheerful expression, simple clean silhouette" },
+    { "id": "rank_point_right",   "label": "右を指差す(脇役用)",     "framing": "full", "emotion": "自信", "use": ["ランキング型"], "prompt": "small full body figure standing upright on two legs, pointing to the right side with one paw, cheerful expression, simple clean silhouette" },
+    { "id": "rank_megaphone",     "label": "メガホンで告知",         "framing": "bust", "emotion": "元気", "use": ["ランキング型"], "prompt": "holding a megaphone up with one paw as if making an announcement, energetic excited expression, bust-up shot from the waist" },
+    { "id": "rank_trophy",        "label": "トロフィーを掲げる",     "framing": "bust", "emotion": "喜び", "use": ["ランキング型"], "prompt": "holding up a golden trophy cup with both paws, proud beaming smile, bust-up shot from the waist" },
+    { "id": "rank_sit_lookup",    "label": "座って見上げる(隅用)",   "framing": "full", "emotion": "興味", "use": ["ランキング型"], "prompt": "sitting down on the ground in a relaxed pose, looking upward with an interested curious expression, full body, compact composition" },
+
+    { "id": "neutral_stand",      "label": "正面立ち・笑顔",         "framing": "full", "emotion": "中立", "use": ["汎用"], "prompt": "standing upright on two legs facing forward, arms relaxed at his sides, calm friendly neutral smile, full body" },
+    { "id": "neutral_bow",        "label": "お辞儀",                 "framing": "full", "emotion": "丁寧", "use": ["汎用"], "prompt": "bowing politely forward with both paws held together in front, respectful expression, full body standing upright on two legs" }
+  ]
+}
